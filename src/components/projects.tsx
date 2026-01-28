@@ -4,7 +4,7 @@ export default function Projects() {
             title: "Nidoggr",
             techStack: "Rust, Tauri, React Native, Expo",
             description: "A dual-ecosystem logistics suite for the Eurométropole de Strasbourg. Built a Rust backend using Tauri for desktop operations, paired with a React Native mobile client to synchronize security data during city-wide events.",
-            githubLink: "",
+            githubLink: "https://github.com/NikitaMgz/Nidoggr",
             liveLink: ""
         },
         {
