@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function About() {
     const SKILLS = [
         "C", "Rust", "Python", "Typescript (Next.js, React, Vite)", "Java", "Cobol"
@@ -9,7 +11,7 @@ export default function About() {
             </div>
             <div className="text-md text-[var(--slate)]">
                 <p className="mb-5">
-                    I am currently a <b>Computer Science student</b> at the <a href="https://iutrs.unistra.fr/english/" target="_blank" rel="noreferrer" className="text-[var(--green-bright)]">Robert Schuman IUT</a>.
+                    I am currently a <b>Computer Science student</b> at the <Link href="https://iutrs.unistra.fr/english/" target="_blank" rel="noreferrer" className="text-[var(--green-bright)]">Robert Schuman IUT</Link>.
                     One of my life goals is to build technologies that revolutionize the world and improve everyone's quality of life.
                     I'm currently focused on improving my low-level programming skills, and my knowledge of system architecture.
                 </p>

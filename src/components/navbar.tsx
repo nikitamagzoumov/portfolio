@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function NavBar() {
     const GithubIcon = () => (
         <svg
@@ -47,9 +49,9 @@ export default function NavBar() {
                         <a href="#projects" className="hover:text-[var(--green-bright)]">Projects</a>
                     </nav>
                     <nav className="flex gap-6">
-                        <a href="mailto:nikita.magzoumov@gmail.com" className="hover:text-[var(--green-bright)]"><MailIcon /></a>
-                        <a href="https://www.linkedin.com/in/nikitamagzoumov/" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><LinkedInIcon /></a>
-                        <a href="https://github.com/NikitaMgz" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><GithubIcon /></a>
+                        <Link href="mailto:nikita.magzoumov@gmail.com" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><MailIcon /></Link>
+                        <Link href="https://www.linkedin.com/in/nikitamagzoumov/" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><LinkedInIcon /></Link>
+                        <Link href="https://github.com/NikitaMgz" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><GithubIcon /></Link>
                     </nav>
                 </div>
             </div>

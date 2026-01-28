@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
     const PROJECTS = [
         {
@@ -67,8 +69,8 @@ export default function Projects() {
                             {project.techStack}
                         </p>
                         <div className="flex gap-2 pt-2">
-                            {project.githubLink == "" ? "" : <a href={project.githubLink} className="text-[var(--lightest-slate)] hover:text-[var(--green-bright)]"><GithubIcon /></a>}
-                            {project.liveLink == "" ? "" : <a href={project.liveLink} className="text-[var(--lightest-slate)] hover:text-[var(--green-bright)]"><ExternalLinkIcon /></a>}
+                            {project.githubLink == "" ? "" : <Link href={project.githubLink} target="_blank" rel="noreferrer" className="text-[var(--lightest-slate)] hover:text-[var(--green-bright)]"><GithubIcon /></Link>}
+                            {project.liveLink == "" ? "" : <Link href={project.liveLink} target="_blank" rel="noreferrer" className="text-[var(--lightest-slate)] hover:text-[var(--green-bright)]"><ExternalLinkIcon /></Link>}
                         </div>
                     </div>
                 ))}
