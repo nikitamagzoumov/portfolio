@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nikita Magzoumov",
-  description: "Created by Nikita Magzoumov",
+  title: "Nikita Magzoumov | Systems & Software Engineer",
+  description: "Computer Science student at IUT Robert Schuman focusing on systems architecture, and full-stack development. Building high-performance solutions.",
 };
 
 export default function RootLayout({
