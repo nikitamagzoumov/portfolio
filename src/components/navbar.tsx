@@ -49,6 +49,15 @@ export default function NavBar() {
                         <a href="#projects" className="hover:text-[var(--green-bright)]">Projects</a>
                     </nav>
                     <nav className="flex gap-6">
+                        <a
+                            href="/CV_Nikita_Magzoumov.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download="CV_Nikita_Magzoumov.pdf"
+                            className="px-2 py-0.5 border border-[var(--lightest-slate)] hover:border-[var(--green-bright)] text-[var(--lightest-slate)] rounded hover:text-[var(--green-bright)] hover:bg-opacity-10 transition-all duration-300 text-[13px] leading-tight"
+                        >
+                            Resume
+                        </a>
                         <Link href="mailto:nikita.magzoumov@gmail.com" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><MailIcon /></Link>
                         <Link href="https://www.linkedin.com/in/nikitamagzoumov/" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><LinkedInIcon /></Link>
                         <Link href="https://github.com/NikitaMgz" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><GithubIcon /></Link>
