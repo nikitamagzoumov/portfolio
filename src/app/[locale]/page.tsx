@@ -6,7 +6,7 @@ import Projects from "./components/projects";
 export default function Home() {
 
   return (
-    <main className="flex flex-col max-w-[1000px] overflow-x-hidden overflow-y-hidden mx-auto min-h-screen">
+    <main className="flex flex-col max-w-[1000px] overflow-x-hidden overflow-y-hidden mx-auto min-h-screen mx-auto px-6 lg:px-8">
       <Intro />
       <About />
       <Experience />

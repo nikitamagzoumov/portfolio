@@ -56,8 +56,8 @@ export default function NavBar() {
         <header className="fixed w-full h-[6vh] bg-[var(--navy)] text-[var(--lightest-slate)] font-mono">
             <div className="flex flex-row h-full items-center justify-center">
                 <a href="#" className="p-2 hover:text-[var(--green-bright)] mr-6"><b>Nikita Magzoumov</b></a>
-                <div className="flex flex-row flex-grow items-center justify-between max-w-[1000px]">
-                    <nav className="flex gap-6">
+                <div className="flex flex-row md:flex-grow items-center justify-between max-w-[1000px]">
+                    <nav className="hidden md:flex gap-6">
                         <a href="#intro" className="hover:text-[var(--green-bright)]">{t('Intro.title')}</a>
                         <a href="#about" className="hover:text-[var(--green-bright)]">{t('About.navTitle')}</a>
                         <a href="#experience" className="hover:text-[var(--green-bright)]">{t('Experience.title')}</a>
@@ -79,9 +79,11 @@ export default function NavBar() {
                         >
                             Resume
                         </a>
-                        <Link href="mailto:nikita.magzoumov@gmail.com" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><MailIcon /></Link>
-                        <Link href="https://www.linkedin.com/in/nikitamagzoumov/" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><LinkedInIcon /></Link>
-                        <Link href="https://github.com/NikitaMgz" target="_blank" rel="noreferrer" className="hover:text-[var(--green-bright)]"><GithubIcon /></Link>
+                        <div className="hidden md:flex items-center gap-4">
+                            <Link href="mailto:nikita.magzoumov@gmail.com" target="_blank" className="hover:text-[var(--green-bright)]"><MailIcon /></Link>
+                            <Link href="https://www.linkedin.com/in/nikitamagzoumov/" target="_blank" className="hover:text-[var(--green-bright)]"><LinkedInIcon /></Link>
+                            <Link href="https://github.com/NikitaMgz" target="_blank" className="hover:text-[var(--green-bright)]"><GithubIcon /></Link>
+                        </div>
                     </nav>
                 </div>
             </div>
