@@ -82,7 +82,7 @@ export default function NavBar() {
                         <div className="hidden md:flex items-center gap-4">
                             <Link href="mailto:nikita.magzoumov@gmail.com" target="_blank" className="hover:text-[var(--green-bright)]"><MailIcon /></Link>
                             <Link href="https://www.linkedin.com/in/nikitamagzoumov/" target="_blank" className="hover:text-[var(--green-bright)]"><LinkedInIcon /></Link>
-                            <Link href="https://github.com/NikitaMgz" target="_blank" className="hover:text-[var(--green-bright)]"><GithubIcon /></Link>
+                            <Link href="https://github.com/nikitamagzoumov" target="_blank" className="hover:text-[var(--green-bright)]"><GithubIcon /></Link>
                         </div>
                     </nav>
                 </div>
