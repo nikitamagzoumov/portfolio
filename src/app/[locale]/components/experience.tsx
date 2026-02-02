@@ -1,18 +1,21 @@
+import { useTranslations } from "next-intl";
+
+interface JobStruct {
+    company: string,
+    title: string,
+    dates: string,
+    techStack: string,
+    description: string[],
+    link: string
+}
+
 export default function Experience() {
-    const JOBS = [
-        {
-            company: "ICube",
-            title: "Research & Development Intern",
-            dates: "April 2025 - June 2025",
-            techStack: "Python, Google Earth Engine, Scikit-Learn",
-            description: ["Built an automated pipeline for the acquisition and processing of satellite imagery via the Sentinel API and Google Earth Engine.", "Trained classification models to identify and categorize agricultural parcels at scale."],
-            link: "https://icube.unistra.fr/en/"
-        },
-    ];
+    const t = useTranslations('Experience');
+    const JOBS = t.raw('items') as JobStruct[];
     return (
         <div id="experience" className="flex flex-col min-h-[100vh] items-start justify-center font-sans">
             <div className="mb-2 text-4xl font-bold text-[var(--lightest-slate)]">
-                Experience
+                {t('title')}
             </div>
             {JOBS.map((job, i) => (
                 <div key={i} className="mb-12">

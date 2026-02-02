@@ -1,6 +1,21 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function NavBar() {
+    const t = useTranslations('');
+    const locale = useLocale();
+    const pathname = usePathname();
+    const router = useRouter();
+
+    const toggleLanguage = () => {
+        const nextLocale = locale === "en" ? "fr" : "en";
+        const newPath = pathname.replace(`/${locale}`, `/${nextLocale}`);
+        router.push(newPath || `/${nextLocale}`);
+    };
+
     const GithubIcon = () => (
         <svg
             role="img"
@@ -43,12 +58,18 @@ export default function NavBar() {
                 <a href="#" className="p-2 hover:text-[var(--green-bright)] mr-6"><b>Nikita Magzoumov</b></a>
                 <div className="flex flex-row flex-grow items-center justify-between max-w-[1000px]">
                     <nav className="flex gap-6">
-                        <a href="#intro" className="hover:text-[var(--green-bright)]">Home</a>
-                        <a href="#about" className="hover:text-[var(--green-bright)]">About</a>
-                        <a href="#experience" className="hover:text-[var(--green-bright)]">Experience</a>
-                        <a href="#projects" className="hover:text-[var(--green-bright)]">Projects</a>
+                        <a href="#intro" className="hover:text-[var(--green-bright)]">{t('Intro.title')}</a>
+                        <a href="#about" className="hover:text-[var(--green-bright)]">{t('About.navTitle')}</a>
+                        <a href="#experience" className="hover:text-[var(--green-bright)]">{t('Experience.title')}</a>
+                        <a href="#projects" className="hover:text-[var(--green-bright)]">{t('Projects.title')}</a>
                     </nav>
                     <nav className="flex gap-6">
+                        <button
+                            onClick={toggleLanguage}
+                            className="text-[13px] hover:text-[var(--green-bright)] transition-colors uppercase cursor-pointer"
+                        >
+                            {locale === "en" ? "FR" : "EN"}
+                        </button>
                         <a
                             href="/CV_Nikita_Magzoumov.pdf"
                             target="_blank"

@@ -1,30 +1,17 @@
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
+
+interface ProjectStruct {
+    title: string,
+    techStack: string,
+    description: string,
+    githubLink: string,
+    liveLink: string
+}
 
 export default function Projects() {
-    const PROJECTS = [
-        {
-            title: "Nidoggr",
-            techStack: "Rust, Tauri, React Native, Expo",
-            description: "A dual-ecosystem logistics suite for the Eurométropole de Strasbourg. Built a Rust backend using Tauri for desktop operations, paired with a React Native mobile client to synchronize security data during city-wide events.",
-            githubLink: "https://github.com/NikitaMgz/Nidoggr",
-            liveLink: ""
-        },
-        {
-            title: "Esup Stages",
-            techStack: "Next.js, NestJS, Express.js, PostgreSQL",
-            description: "Full-stack management ecosystem for the IUT Robert Schuman. Engineered to streamline internship tracking and pedagogical workflows, automating document generation and corporate offer indexing.",
-            githubLink: "",
-            liveLink: ""
-        },
-        {
-            title: "Home Infrastructure & NAS",
-            techStack: "Ubuntu, Docker Compose, WireGuard VPN",
-            description: "Secure, headless server environment focused on data redundancy and self-hosted microservices. Managed container orchestration via Docker Compose and established encrypted remote access tunnels.",
-            githubLink: "",
-            liveLink: ""
-        }
-    ];
-
+    const t = useTranslations('Projects');
+    const PROJECTS = t.raw('items') as ProjectStruct[];
     const GithubIcon = () => (
         <svg
             role="img"
@@ -57,7 +44,7 @@ export default function Projects() {
     return (
         <section id="projects" className="py-20 min-h-[100vh]">
             <h2 className="text-4xl font-bold text-[var(--lightest-slate)] mb-10">
-                Projects
+                {t('title')}
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

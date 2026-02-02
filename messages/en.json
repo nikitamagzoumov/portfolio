@@ -1,0 +1,65 @@
+{
+    "Projects": {
+        "title": "Projects",
+        "items": [
+            {
+                "title": "Nidoggr",
+                "techStack": "Rust, Tauri, React Native, Expo",
+                "description": "A dual-ecosystem logistics suite for the Eurométropole of Strasbourg. Built a Rust backend using Tauri for desktop operations, paired with a React Native mobile client to synchronize security data during city-wide events.",
+                "githubLink": "https://github.com/NikitaMgz/Nidoggr",
+                "liveLink": ""
+            },
+            {
+                "title": "Esup Stages",
+                "techStack": "Next.js, NestJS, Express.js, PostgreSQL",
+                "description": "Full-stack management ecosystem for the IUT Robert Schuman. Engineered to streamline internship tracking and pedagogical workflows, automating document sharing and corporate offer indexing.",
+                "githubLink": "",
+                "liveLink": ""
+            },
+            {
+                "title": "Home Infrastructure & NAS",
+                "techStack": "Ubuntu, Docker Compose, WireGuard VPN",
+                "description": "Secure, headless server environment focused on data redundancy and self-hosted microservices. Managed container orchestration via Docker Compose and established encrypted remote access tunnels.",
+                "githubLink": "",
+                "liveLink": ""
+            }
+        ]
+    },
+    "Experience": {
+        "title": "Experience",
+        "items": [
+            {
+                "company": "ICube",
+                "title": "Research & Development Intern",
+                "dates": "April 2025 - June 2025",
+                "techStack": "Python, Google Earth Engine, Scikit-Learn",
+                "description": [
+                    "Built an automated pipeline for the acquisition and processing of satellite imagery via the Sentinel API and Google Earth Engine.",
+                    "Trained classification models to identify and categorize agricultural parcels at scale."
+                ],
+                "link": "https://icube.unistra.fr/en/"
+            }
+        ]
+    },
+    "Intro": {
+        "title": "Home",
+        "greeting": "Hi, I'm ",
+        "paragraph": "I'm an IT student based in Strasbourg, France. I focus on building reliable tools, web platforms and exploring systems programming, with a particular interest in Open Source and technical solutions that drive scientific advancement."
+    },
+    "About": {
+        "navTitle": "About",
+        "title": "About me",
+        "intro": "I am currently a ",
+        "status": "Computer Science student",
+        "at": " at the ",
+        "school": "Robert Schuman IUT",
+        "goals": " One of my life goals is to build technologies that revolutionize the world and improve everyone's quality of life. I'm currently focused on improving my low-level programming skills, and my knowledge of system architecture.",
+        "techsIntro": "Here is a non-exhaustive list of what I've used so far:",
+        "hobbies": "Outside of IT, I love music, such as Shoegaze lately, different sports (I love Cycling and Football) and reading (ever heard of Shadow Slave?).",
+        "link": "https://iutrs.unistra.fr/english/"
+    },
+    "Metadata": {
+        "title": "Nikita Magzoumov | Systems & Software Engineer",
+        "description": "Computer Science student focusing on systems architecture and full-stack development, with an interest in AI."
+    }
+}

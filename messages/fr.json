@@ -1,0 +1,65 @@
+{
+    "Projects": {
+        "title": "Projets",
+        "items": [
+            {
+                "title": "Nidoggr",
+                "techStack": "Rust, Tauri, React Native, Expo",
+                "description": "Une suite logicielle pour l'Eurométropole de Strasbourg. J'ai développé un backend Rust en utilisant Tauri pour les opérations bureau, combiné avec un client mobile React Native pour synchroniser les données de sécurité pendant des événements à l'échelle de la ville.",
+                "githubLink": "https://github.com/NikitaMgz/Nidoggr",
+                "liveLink": ""
+            },
+            {
+                "title": "Esup Stages",
+                "techStack": "Next.js, NestJS, Express.js, PostgreSQL",
+                "description": "Un écosystème de gestion full-stack pour l'IUT Robert Schuman. J'ai construit une application combinée à une API qui permet de visualiser et gérer les offres de stage et des documents pédagogiques.",
+                "githubLink": "",
+                "liveLink": ""
+            },
+            {
+                "title": "Home Infrastructure & NAS",
+                "techStack": "Ubuntu, Docker Compose, WireGuard VPN",
+                "description": "Serveur sécurisé qui permet d'auto-héberger des microservices. J'ai orchestré la conteneurisation via Docker Compose et établi un accès à distance crypté.",
+                "githubLink": "",
+                "liveLink": ""
+            }
+        ]
+    },
+    "Experience": {
+        "title": "Experience",
+        "items": [
+            {
+                "company": "ICube",
+                "title": "Stagiaire Recherche et Développement",
+                "dates": "Avril 2025 - Juin 2025",
+                "techStack": "Python, Google Earth Engine, Scikit-Learn",
+                "description": [
+                    "J'ai développé une pipeline automatique pour le téléchargement et le traitement de series temporelles d'images satellites via l'API Sentinel et Google Earth Engine.",
+                    "J'ai entraîné des modèles de classification à identifier et catégoriser des parcelles agricoles à grande échelle."
+                ],
+                "link": "https://icube.unistra.fr/"
+            }
+        ]
+    },
+    "Intro": {
+        "title": "Accueil",
+        "greeting": "Salut, je suis ",
+        "paragraph": "Je suis un étudiant en informatique vivant à Strasbourg, France. Je m'efforce de construire des outils fiables, des plateformes web et explore la programmation système, avec un intérêt pour l'Open Source et les solutions techniques qui font avancer la science."
+    },
+    "About": {
+        "navTitle": "À propos",
+        "title": "À propos",
+        "intro": "Je suis actuellement un ",
+        "status": "étudiant en informatique",
+        "at": " à ",
+        "school": "l'IUT Robert Schuman",
+        "goals": " Un de mes objectifs de vie est de créer des technologies qui révolutionneront le monde et amélioreront la qualité de vie de tous. En ce moment, je m'applique à améliorer mes compétences en programmation bas niveau et mes connaissances en architecture système.",
+        "techsIntro": "Voici une liste non-exhaustive des outils que j'ai utilisé jusqu'à présent:",
+        "hobbies": "En dehors de l'informatique, j'aime la musique, le Shoegaze dernièrement, différents sports (le Cyclisme et le Football notamment) et lire (vous avez déjà entendu parler de Shadow Slave?).",
+        "link": "https://iutrs.unistra.fr/"
+    },
+    "Metadata": {
+        "title": "Nikita Magzoumov | Ingénieur Systèmes & Logiciels",
+        "description": "Étudiant en informatique spécialisé en architecture systèmes et développement full-stack, intéressé par l'IA."
+    }
+}
