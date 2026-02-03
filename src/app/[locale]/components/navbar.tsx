@@ -71,10 +71,9 @@ export default function NavBar() {
                             {locale === "en" ? "FR" : "EN"}
                         </button>
                         <a
-                            href={locale === "en" ? "/eng/CV_Nikita_Magzoumov.pdf" : "/fr/CV_Nikita_Magzoumov.pdf"}
+                            href={locale === "en" ? "/eng/Resume_Nikita_Magzoumov.pdf" : "/fr/CV_Nikita_Magzoumov.pdf"}
                             target="_blank"
                             rel="noopener noreferrer"
-                            download="Resume_Nikita_Magzoumov.pdf"
                             className="px-2 py-0.5 border border-[var(--lightest-slate)] hover:border-[var(--green-bright)] text-[var(--lightest-slate)] rounded hover:text-[var(--green-bright)] hover:bg-opacity-10 transition-all duration-300 text-[13px] leading-tight"
                         >
                             Resume
