@@ -3,10 +3,17 @@
         "title": "Projects",
         "items": [
             {
+                "title": "Autonomous Pathfinding Engine",
+                "techStack": "Rust (Macroquad)",
+                "description": "A high-performance simulation evolving 500+ agents to navigate S-curves. Implemented a Genetic Algorithm featuring elitism selection, crossover, and mutation to achieve successful navigation.",
+                "githubLink": "https://github.com/nikitamagzoumov/genetic-algorithm",
+                "liveLink": ""
+            },
+            {
                 "title": "Nidoggr",
                 "techStack": "Rust, Tauri, React Native, Expo",
                 "description": "A dual-ecosystem logistics suite for the Eurométropole of Strasbourg. Built a Rust backend using Tauri for desktop operations, paired with a React Native mobile client to synchronize security data during city-wide events.",
-                "githubLink": "https://github.com/NikitaMgz/Nidoggr",
+                "githubLink": "https://github.com/nikitamagzoumov/Nidoggr",
                 "liveLink": ""
             },
             {
@@ -59,7 +66,7 @@
         "link": "https://iutrs.unistra.fr/english/"
     },
     "Metadata": {
-        "title": "Nikita Magzoumov | Systems & Software Engineer",
-        "description": "Computer Science student focusing on systems architecture and full-stack development, with an interest in AI."
+        "title": "Nikita Magzoumov | AI & Software Engineer",
+        "description": "Computer Science student specialized on AI algorithms & Optimisation | Available for an Internship (March 2026) "
     }
 }

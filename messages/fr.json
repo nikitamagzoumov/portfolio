@@ -3,10 +3,17 @@
         "title": "Projets",
         "items": [
             {
+                "title": "Optimisation de Trajectoire par Algorithme Génétique",
+                "techStack": "Rust (Macroquad)",
+                "description": "Développement d'un moteur d'évolution simulant 500 agents autonomes. L'algorithme optimise leur navigation à travers une série d'obstacles en utilisant les principes de sélection naturelle (élitisme), croisement et mutation.",
+                "githubLink": "https://github.com/nikitamagzoumov/genetic-algorithm",
+                "liveLink": ""
+            },
+            {
                 "title": "Nidoggr",
                 "techStack": "Rust, Tauri, React Native, Expo",
                 "description": "Une suite logicielle pour l'Eurométropole de Strasbourg. J'ai développé un backend Rust en utilisant Tauri pour les opérations bureau, combiné avec un client mobile React Native pour synchroniser les données de sécurité pendant des événements à l'échelle de la ville.",
-                "githubLink": "https://github.com/NikitaMgz/Nidoggr",
+                "githubLink": "https://github.com/nikitamagzoumov/Nidoggr",
                 "liveLink": ""
             },
             {
@@ -59,7 +66,7 @@
         "link": "https://iutrs.unistra.fr/"
     },
     "Metadata": {
-        "title": "Nikita Magzoumov | Ingénieur Systèmes & Logiciels",
-        "description": "Étudiant en informatique spécialisé en architecture systèmes et développement full-stack, intéressé par l'IA."
+        "title": "Nikita Magzoumov | Ingénieur IA & Logiciels",
+        "description": "Développeur Spécialisé en Algorithmes d'IA & Optimisation Performance | Recherche Stage (Mars 2026)"
     }
 }
